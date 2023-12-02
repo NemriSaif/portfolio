@@ -1,18 +1,23 @@
+Absolutely, I can help you create a more professional and themed CSS. Let’s go for a dark theme which is quite popular in professional settings. Here’s an updated version of the CSS:
+
+CSS
+AI-generated code. Review and use carefully. More info on FAQ.
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #1a1a1a;
+    color: #f2f2f2;
 }
 
 h1, h2 {
-    color: #333;
+    color: #66d9ff;
     text-align: center;
     padding: 20px 0;
 }
 
 p {
-    color: #666;
     font-size: 18px;
     line-height: 1.6;
     margin: 0 10px;
@@ -20,7 +25,7 @@ p {
 
 a {
     display: block;
-    color: #0088cc;
+    color: #66d9ff;
     text-decoration: none;
     margin: 5px 0;
 }
@@ -40,11 +45,13 @@ input[type="text"], textarea {
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+    background-color: #333;
+    color: #f2f2f2;
 }
 
 input[type="submit"] {
-    background-color: #0088cc;
-    color: white;
+    background-color: #66d9ff;
+    color: #1a1a1a;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -55,3 +62,4 @@ input[type="submit"] {
 input[type="submit"]:hover {
     opacity: 0.8;
 }
+This CSS will give your portfolio a dark and modern look. You can adjust the colors, fonts, and other styles to better suit your personal taste. If you have any specific design in mind, feel free to let me know! 😊
