@@ -1,8 +1,3 @@
-Absolutely, I can help you create a more professional and themed CSS. Let’s go for a dark theme which is quite popular in professional settings. Here’s an updated version of the CSS:
-
-CSS
-AI-generated code. Review and use carefully. More info on FAQ.
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -12,7 +7,7 @@ body {
 }
 
 h1, h2 {
-    color: #66d9ff;
+    color: #100357;
     text-align: center;
     padding: 20px 0;
 }
@@ -32,10 +27,15 @@ a {
 
 form {
     margin: 20px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
 }
 
 label {
     font-weight: bold;
+    display: block;
+    margin-top: 20px;
 }
 
 input[type="text"], textarea {
@@ -45,12 +45,12 @@ input[type="text"], textarea {
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
-    background-color: #333;
+    background-color: #1a1a1a;
     color: #f2f2f2;
 }
 
 input[type="submit"] {
-    background-color: #66d9ff;
+    background-color: #000f48;
     color: #1a1a1a;
     padding: 14px 20px;
     margin: 8px 0;
