@@ -1,72 +1,58 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
-    color: #1a1a1a;
+    background-color: #FFFFFF; /* white */
+    display: flex;
 }
 
 nav {
-    width: 200px;
-    background-color: #f2f2f2;
-    height: 100vh;
-    padding: 20px;
-    box-sizing: border-box;
+    background-color: #000040; /* darker blue */
+    color: #FFFFFF; /* white */
+    padding: 15px;
+    width: 180px; /* reduced width */
     position: fixed;
+    height: 100%;
+    overflow: auto;
 }
 
 nav a {
-    display: block;
-    color: #000033; /* Dark blue */
+    color: #FFFFFF; /* white */
+    margin: 0 15px;
     text-decoration: none;
-    margin: 10px 0;
+    display: block;
+    padding: 5px 0;
 }
 
 main {
-    margin-left: 220px;
-    padding: 20px;
+    padding: 15px;
+    margin-left: 200px; /* reduced margin-left */
+    width: calc(100% - 200px); /* increased width */
+    transition: margin-left 0.5s;
+    position: relative;
+    left: 0;
 }
 
 h1, h2 {
-    color: #000033; /* Dark blue */
-    text-align: center;
-    padding: 20px 0;
-}
-
-p {
-    font-size: 18px;
-    line-height: 1.6;
-    margin: 0 10px;
+    color: #000040; /* navy blue */
 }
 
 form {
-    margin: 20px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    border-radius: 5px;
-}
-
-label {
-    font-weight: bold;
-    display: block;
     margin-top: 20px;
 }
 
-input[type="text"], textarea {
+form input[type="text"], form textarea {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid #000000; /* black */
     box-sizing: border-box;
-    background-color: #ffffff;
-    color: #1a1a1a;
 }
 
-input[type="submit"] {
-    background-color: #000033; /* Dark blue */
-    color: #ffffff;
+form input[type="submit"] {
+    background-color: #000040; /* navy blue */
+    color: #FFFFFF; /* white */
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -74,6 +60,6 @@ input[type="submit"] {
     width: 100%;
 }
 
-input[type="submit"]:hover {
+form input[type="submit"]:hover {
     opacity: 0.8;
 }
